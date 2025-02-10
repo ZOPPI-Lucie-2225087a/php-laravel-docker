@@ -14,6 +14,13 @@ ENV APP_ENV production
 ENV APP_DEBUG false
 ENV LOG_CHANNEL stderr
 
+# Database config
+ENV DATABASE_URL="postgresql://hello_postgresql_2327_user:rMB98rimtls0j2GJGo7ZcpUEEkQqJ8jl@dpg-cukt3li3esus73avtk5g-a/hello_postgresql_2327"
+ENV DB_CONNECTION="pgsql"
+
+# Laravel APP_KEY
+ENV APP_KEY="copie_de_la_sortie_de_php_artisan_key_generate"
+
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 2
 
